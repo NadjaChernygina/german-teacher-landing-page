@@ -78,3 +78,13 @@ function handleSubmit(e) {
     btn.style.background = "";
   }, 3500);
 }
+
+const track = document.getElementById("testimonialsTrack");
+
+document.querySelector(".testimonials__btn--next").onclick = () => {
+  track.scrollBy({ left: 320, behavior: "smooth" });
+};
+
+document.querySelector(".testimonials__btn--prev").onclick = () => {
+  track.scrollBy({ left: -320, behavior: "smooth" });
+};
