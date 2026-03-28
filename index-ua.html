@@ -24,7 +24,8 @@
       href="assets/images/favicon-16x16.png"
     />
     <link rel="alternate" hreflang="de" href="/index.html" />
-    <link rel="alternate" hreflang="en" href="/en.html" />
+    <link rel="alternate" hreflang="ua" href="/index-ua.html" />
+    <link rel="alternate" hreflang="ru" href="/index-ru.html" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,14 +38,32 @@
     <!-- OVERLAY + MOBILE NAV -->
     <div class="nav-overlay" id="navOverlay"></div>
     <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
-      <a href="#ueber-mich">Über mich</a>
-      <a href="#erfahrung">Erfahrung</a>
-      <a href="#leistungen">Leistungen</a>
-      <a href="#vorteile">Vorteile</a>
-      <a href="#kontakt">Kontakt</a>
-      <div class="mobile-lang">
-        <a href="/index.html" class="active">DE</a>
-        <a href="/en.html">EN</a>
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item">
+          <a href="#ueber-mich" class="mobile-nav__link">Über mich</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#erfahrung" class="mobile-nav__link">Erfahrung</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#leistungen" class="mobile-nav__link">Leistungen</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#vorteile" class="mobile-nav__link">Vorteile</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#kontakt" class="mobile-nav__link">Kontakt</a>
+        </li>
+      </ul>
+
+      <div class="mobile-lang" aria-label="Select language">
+        <a href="index.html" class="mobile-lang__option" data-lang="DE">DE</a>
+        <a href="index-ua.html" class="mobile-lang__option" data-lang="UA"
+          >UA</a
+        >
+        <a href="index-ru.html" class="mobile-lang__option" data-lang="RU"
+          >RU</a
+        >
       </div>
     </nav>
 
@@ -67,11 +86,58 @@
           <a href="#kontakt">Kontakt</a>
         </nav>
         <div class="header-right">
-          <div class="lang-switch">
-            <a href="/index.html" class="active">DE</a>
-            <span>|</span>
-            <a href="/en.html">EN</a>
+          <!-- Desktop Language Switcher -->
+          <div class="lang-switch" role="listbox" aria-label="Select language">
+            <button
+              class="lang-switch__trigger"
+              id="lang-trigger"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              aria-controls="lang-dropdown"
+            >
+              <span id="lang-current">DE</span>
+              <svg
+                class="lang-switch__arrow"
+                width="10"
+                height="6"
+                viewBox="0 0 10 6"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M1 1l4 4 4-4"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+
+            <ul class="lang-switch__dropdown" id="lang-dropdown" role="listbox">
+              <li role="option">
+                <a href="index.html" class="lang-switch__option" data-lang="DE"
+                  >DE</a
+                >
+              </li>
+              <li role="option">
+                <a
+                  href="index-ua.html"
+                  class="lang-switch__option"
+                  data-lang="UA"
+                  >UA</a
+                >
+              </li>
+              <li role="option">
+                <a
+                  href="index-ru.html"
+                  class="lang-switch__option"
+                  data-lang="RU"
+                  >RU</a
+                >
+              </li>
+            </ul>
           </div>
+
           <button class="hamburger" id="hamburger" aria-label="Menu offnen">
             <span></span><span></span><span></span>
           </button>
