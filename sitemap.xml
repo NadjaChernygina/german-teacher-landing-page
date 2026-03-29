@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- German (main) -->
+  <url>
+    <loc>https://kurinova-deutsch.com/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kurinova-deutsch.com/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kurinova-deutsch.com/index-ua.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kurinova-deutsch.com/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kurinova-deutsch.com/"/>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Ukrainian -->
+  <url>
+    <loc>https://kurinova-deutsch.com/index-ua.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kurinova-deutsch.com/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kurinova-deutsch.com/index-ua.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kurinova-deutsch.com/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kurinova-deutsch.com/"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Russian -->
+  <url>
+    <loc>https://kurinova-deutsch.com/index-ru.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kurinova-deutsch.com/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kurinova-deutsch.com/index-ua.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kurinova-deutsch.com/index-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kurinova-deutsch.com/"/>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
