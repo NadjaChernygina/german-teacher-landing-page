@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="de">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Julia Kurinova – Deutschlehrerin</title>
+    <title>Юлия Куринова – преподаватель немецкого языка онлайн</title>
     <meta
       name="description"
-      content="Professionelle Deutschlehrerin mit Erfahrung in Einzel- und Gruppenunterricht. Deutsch lernen leicht gemacht – strukturiert, individuell und effektiv."
+      content="Сертифицированный преподаватель немецкого языка с более чем 20-летним опытом. Индивидуальные онлайн-уроки для начинающих и продолжающих. Подготовка к экзаменам Goethe и TELC."
     />
 
     <!-- favicon -->
@@ -68,30 +68,26 @@
     <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
       <ul class="mobile-nav__list">
         <li class="mobile-nav__item">
-          <a href="#ueber-mich" class="mobile-nav__link">Über mich</a>
+          <a href="#ueber-mich" class="mobile-nav__link">Обо мне</a>
         </li>
         <li class="mobile-nav__item">
-          <a href="#erfahrung" class="mobile-nav__link">Erfahrung</a>
+          <a href="#erfahrung" class="mobile-nav__link">Опыт</a>
         </li>
         <li class="mobile-nav__item">
-          <a href="#leistungen" class="mobile-nav__link">Leistungen</a>
+          <a href="#leistungen" class="mobile-nav__link">Услуги</a>
         </li>
         <li class="mobile-nav__item">
-          <a href="#vorteile" class="mobile-nav__link">Vorteile</a>
+          <a href="#vorteile" class="mobile-nav__link">Преимущества</a>
         </li>
         <li class="mobile-nav__item">
-          <a href="#kontakt" class="mobile-nav__link">Kontakt</a>
+          <a href="#kontakt" class="mobile-nav__link">Контакт</a>
         </li>
       </ul>
 
-      <div class="mobile-lang" aria-label="Select language">
+      <div class="mobile-lang" aria-label="Выберите язык">
         <a href="index.html" class="mobile-lang__option" data-lang="DE">DE</a>
-        <a href="index-ua.html" class="mobile-lang__option" data-lang="UA"
-          >UA</a
-        >
-        <a href="index-ru.html" class="mobile-lang__option" data-lang="RU"
-          >RU</a
-        >
+        <a href="index-ua.html" class="mobile-lang__option" data-lang="UA">UA</a>
+        <a href="index-ru.html" class="mobile-lang__option" data-lang="RU">RU</a>
       </div>
     </nav>
 
@@ -101,20 +97,21 @@
         <a
           href="/"
           class="logo"
-          aria-label="Yuliya Kurinova Deutsch lernen home"
+          aria-label="Юлия Куринова — изучение немецкого языка, главная страница"
         >
           <span class="logo__main">Yuliya Kurinova</span>
           <span class="logo__sub">Deutsch lernen</span>
         </a>
         <nav>
-          <a href="#ueber-mich">Über mich</a>
-          <a href="#erfahrung">Erfahrung</a>
-          <a href="#leistungen">Leistungen</a>
-          <a href="#vorteile">Vorteile</a>
-          <a href="#kontakt">Kontakt</a>
+          <a href="#ueber-mich">Обо мне</a>
+          <a href="#erfahrung">Опыт</a>
+          <a href="#leistungen">Услуги</a>
+          <a href="#vorteile">Преимущества</a>
+          <a href="#kontakt">Контакт</a>
         </nav>
         <div class="header-right">
-          <div class="lang-switch" role="listbox" aria-label="Select language">
+          <!-- Desktop Language Switcher -->
+          <div class="lang-switch" role="listbox" aria-label="Выберите язык">
             <button
               class="lang-switch__trigger"
               id="lang-trigger"
@@ -122,7 +119,7 @@
               aria-expanded="false"
               aria-controls="lang-dropdown"
             >
-              <span id="lang-current">DE</span>
+              <span id="lang-current">RU</span>
               <svg
                 class="lang-switch__arrow"
                 width="10"
@@ -142,29 +139,18 @@
 
             <ul class="lang-switch__dropdown" id="lang-dropdown" role="listbox">
               <li role="option">
-                <a href="index.html" class="lang-switch__option" data-lang="DE"
-                  >DE</a
-                >
+                <a href="index.html" class="lang-switch__option" data-lang="DE">DE</a>
               </li>
               <li role="option">
-                <a
-                  href="index-ua.html"
-                  class="lang-switch__option"
-                  data-lang="UA"
-                  >UA</a
-                >
+                <a href="index-ua.html" class="lang-switch__option" data-lang="UA">UA</a>
               </li>
               <li role="option">
-                <a
-                  href="index-ru.html"
-                  class="lang-switch__option"
-                  data-lang="RU"
-                  >RU</a
-                >
+                <a href="index-ru.html" class="lang-switch__option" data-lang="RU">RU</a>
               </li>
             </ul>
           </div>
-          <button class="hamburger" id="hamburger" aria-label="Menu offnen">
+
+          <button class="hamburger" id="hamburger" aria-label="Открыть меню">
             <span></span><span></span><span></span>
           </button>
         </div>
@@ -177,19 +163,20 @@
         <div class="container">
           <div class="hero-grid">
             <div class="hero-content">
-              <div class="hero-eyebrow reveal">Willkommen</div>
+              <div class="hero-eyebrow reveal">Добро пожаловать</div>
               <h1 class="hero-title reveal reveal-delay-1">
-                Deutsch<br />
-                <span>lernen</span> leicht<br />
-                gemacht.
+                Немецкий<br />
+                <span>язык</span> — легко<br />
+                и с удовольствием.
               </h1>
               <p class="hero-sub reveal reveal-delay-2">
-                Ich bin Julia Kurinova, zertifizierte Deutschlehrerin. Ich helfe
-                Lernenden Deutsch klar, strukturiert und mit Spaß zu lernen.
+                Я — Юлия Куринова, сертифицированный преподаватель немецкого
+                языка. Помогаю студентам освоить язык чётко, структурированно и
+                без лишнего стресса.
               </p>
               <div class="hero-cta reveal reveal-delay-3">
-                <a href="#kontakt" class="btn">Stunde buchen</a>
-                <a href="#ueber-mich" class="btn btn-outline">Mehr erfahren</a>
+                <a href="#kontakt" class="btn">Записаться на урок</a>
+                <a href="#ueber-mich" class="btn btn-outline">Узнать больше</a>
               </div>
             </div>
             <div class="hero-photo-wrap reveal reveal-delay-2">
@@ -198,7 +185,7 @@
                   <div class="photo-placeholder">
                     <img
                       src="assets/images/german-teacher-online-lessons-yuliya-kurinova.jpg"
-                      alt="Julia Kurinova experienced German language teacher offering private German lessons"
+                      alt="Юлия Куринова — опытный преподаватель немецкого языка, индивидуальные онлайн-уроки"
                       loading="eager"
                     />
                   </div>
@@ -217,8 +204,8 @@
                     </svg>
                   </div>
                   <div class="hero-badge-text">
-                    <strong>20+ Jahre</strong>
-                    <span>Unterrichtserfahrung</span>
+                    <strong>20+ лет</strong>
+                    <span>педагогического опыта</span>
                   </div>
                 </div>
               </div>
@@ -232,52 +219,52 @@
         <div class="container">
           <div class="about-grid">
             <div class="about-left reveal">
-              <span class="section-label">Über mich</span>
+              <span class="section-label">Обо мне</span>
               <h2 class="section-title">
-                Leidenschaft fur<br />die <span>deutsche Sprache</span>
+                Страсть к<br />
+                <span>немецкому языку</span>
               </h2>
               <div class="about-philosophy">
                 <p>
-                  "Jeder Schüler ist einzigartig. Mein Ziel ist es, individuelle
-                  Stärken zu fördern und das Lernen zu einem positiven Erlebnis
-                  zu machen."
+                  «Каждый ученик уникален. Моя цель — раскрыть индивидуальные
+                  сильные стороны и сделать обучение по-настоящему приятным
+                  процессом.»
                 </p>
               </div>
             </div>
             <div class="about-right">
               <p class="reveal reveal-delay-1">
-                Ich bin eine erfahrene und zertifizierte Deutschlehrerin mit
-                einem Masterabschluss in Germanistik und Deutsch als
-                Fremdsprache. Mein Studium habe ich an der Universität Dortmund
-                am Fachbereich Germanistik absolviert.
+                Я — опытный сертифицированный преподаватель с магистерской
+                степенью в области германистики и преподавания немецкого как
+                иностранного языка. Обучалась в Дортмундском университете на
+                факультете германистики.
               </p>
               <p class="reveal reveal-delay-2">
-                Ich gestalte meinen Unterricht flexibel und individuell, passe
-                die Struktur jeder Stunde gezielt an die Bedürfnisse meiner
-                Lernenden an und arbeite besonders erfolgreich mit russisch- und
-                ukrainischsprachigen Studierenden.
+                Мой подход — гибкий и личностно ориентированный: структуру
+                каждого урока я выстраиваю в соответствии с потребностями
+                конкретного ученика. Особенно эффективно работаю с русско- и
+                украиноязычными студентами.
               </p>
               <p class="reveal reveal-delay-3">
-                Meine umfangreiche Erfahrung umfasst die Arbeit mit Kindern in
-                den deutschen Schulen, 10 Jahre Unterricht in Sprachschulen in
-                Charkiw, insbesondere mit erwachsenen Lernenden, sowie weitere
-                10 Jahre Online-Unterricht. Dabei liegt mein Fokus auf
-                praxisnaher Kommunikation und der direkten Anwendung der Sprache
-                im Alltag.
+                Мой опыт включает работу в немецких школах, 10 лет преподавания
+                в языковых школах Харькова (преимущественно со взрослой
+                аудиторией), а также 10 лет онлайн-обучения. Главный акцент —
+                практическая коммуникация и умение использовать язык в реальной
+                жизни.
               </p>
               <div class="about-stats reveal reveal-delay-4">
                 <div class="stat">
                   <span class="stat-number">20+</span>
-                  <span class="stat-label">Jahre Erfahrung</span>
+                  <span class="stat-label">лет опыта</span>
                 </div>
                 <div class="stat">
                   <span class="stat-number">500+</span>
-                  <span class="stat-label">Schüler</span>
+                  <span class="stat-label">учеников</span>
                 </div>
                 <div class="stat">
-                  <span class="stat-label"
-                    >Erstes Staatsexamen (Sekundarstufe I) – Deutsch /
-                    Geschichte (entspricht einem Master of Education)
+                  <span class="stat-label">
+                    Первый государственный экзамен (средняя школа) — Немецкий /
+                    История (соответствует степени магистра образования)
                   </span>
                 </div>
               </div>
@@ -285,73 +272,68 @@
           </div>
         </div>
       </section>
+
       <!-- EXPERIENCE -->
       <section id="erfahrung" class="section section--alt">
         <div class="container">
           <div class="reveal">
-            <span class="section-label">Berufliche Erfahrung</span>
+            <span class="section-label">Профессиональный опыт</span>
             <h2 class="section-title">
-              Unterrichts-<br /><span>erfahrung</span>
+              Педагогический<br /><span>путь</span>
             </h2>
           </div>
           <div class="exp-timeline">
             <div class="exp-item reveal">
               <div class="exp-header">
-                <div class="exp-role">Selbstständige Deutschlehrerin</div>
-                <div class="exp-period">2018 - Heute</div>
+                <div class="exp-role">Частный преподаватель немецкого</div>
+                <div class="exp-period">2018 — по настоящее время</div>
               </div>
-              <div class="exp-org">
-                Privater Online-Unterricht, International
-              </div>
+              <div class="exp-org">Частные онлайн-уроки, международный формат</div>
               <div class="exp-desc">
-                Individuelle Deutschstunden für Lernende bis Niveau B2.
-                Erstellung maßgeschneiderter Lehrpläne und Vorbereitung auf
-                Goethe- und TELC-Prüfungen. Unterrichtssprache: Deutsch,
-                Russisch
+                Индивидуальные уроки для учеников до уровня B2. Разработка
+                персональных учебных планов и подготовка к экзаменам Goethe и
+                TELC. Языки обучения: немецкий, русский.
               </div>
             </div>
             <div class="exp-item reveal reveal-delay-1">
               <div class="exp-header">
-                <div class="exp-role">Deutschlehrerin</div>
-                <div class="exp-period">2008 - 2018</div>
+                <div class="exp-role">Преподаватель немецкого языка</div>
+                <div class="exp-period">2008 — 2018</div>
               </div>
-              <div class="exp-org">Ilingua Sprachschule, Charkiw</div>
+              <div class="exp-org">Языковая школа Ilingua, Харьков</div>
               <div class="exp-desc">
-                Unterricht in Einzel- und Gruppenstunden für Erwachsene und
-                Lernende. Schwerpunkt auf Alltagskommunikation. Erstellung von
-                Unterrichtsmaterialien, Begleitung von Bewerbungsprozessen und
-                didaktische Einarbeitung anderer Kolleg:innen
+                Индивидуальные и групповые занятия для взрослых. Акцент на
+                повседневном общении. Разработка учебных материалов, помощь в
+                поступлении и методическая подготовка коллег.
               </div>
             </div>
             <div class="exp-item reveal reveal-delay-3">
               <div class="exp-header">
-                <div class="exp-role">Förderlehrerin</div>
-                <div class="exp-period">2005 - 2007</div>
+                <div class="exp-role">Учитель поддержки</div>
+                <div class="exp-period">2005 — 2007</div>
               </div>
-              <div class="exp-org">Gesamtschule Heinrich Böll, Dortmund</div>
+              <div class="exp-org">Gesamtschule Heinrich Böll, Дортмунд</div>
               <div class="exp-desc">
-                Mitarbeit im Dortmunder Förderprojekt „Sprachliche Kompetenz für
-                Kinder mit Migrationshintergrund und sozial benachteiligte
-                Kinder“
+                Участие в дортмундском проекте поддержки «Языковая компетентность
+                для детей с миграционным прошлым и социально уязвимых детей».
               </div>
             </div>
             <div class="exp-item reveal reveal-delay-4">
               <div class="exp-header">
-                <div class="exp-role">Förderlehrerin</div>
+                <div class="exp-role">Учитель поддержки</div>
                 <div class="exp-period">2003</div>
               </div>
-              <div class="exp-org">Hauptschule Eving, Dortmund</div>
+              <div class="exp-org">Hauptschule Eving, Дортмунд</div>
             </div>
             <div class="exp-item reveal reveal-delay-3">
               <div class="exp-header">
-                <div class="exp-role">Studium der Germanistik</div>
-                <div class="exp-period">2002 – 2008</div>
+                <div class="exp-role">Изучение германистики</div>
+                <div class="exp-period">2002 — 2008</div>
               </div>
-              <div class="exp-org">Universität Dortmund, Deutschland</div>
+              <div class="exp-org">Университет Дортмунда, Германия</div>
               <div class="exp-desc">
-                Fachliche Schwerpunkte: Sprachwissenschaft, Deutsch als
-                Fremdsprache (DaF), interkulturelle Kommunikation und moderne
-                Unterrichtsdidaktik.
+                Основные направления: языкознание, немецкий как иностранный
+                (DaF), межкультурная коммуникация и современная дидактика.
               </div>
             </div>
           </div>
@@ -362,8 +344,8 @@
       <section id="leistungen" class="section">
         <div class="container">
           <div class="reveal">
-            <span class="section-label">Meine Leistungen</span>
-            <h2 class="section-title">Was ich<br /><span>anbiete</span></h2>
+            <span class="section-label">Мои услуги</span>
+            <h2 class="section-title">Что я<br /><span>предлагаю</span></h2>
           </div>
           <div class="services-grid">
             <div class="service-card reveal">
@@ -377,15 +359,13 @@
                   stroke-linejoin="round"
                 >
                   <path d="M12 20h9" />
-                  <path
-                    d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"
-                  />
+                  <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
                 </svg>
               </div>
-              <div class="service-name">Einzelunterricht</div>
+              <div class="service-name">Индивидуальные уроки</div>
               <div class="service-desc">
-                Persönlicher und individueller Deutschunterricht, angepasst an
-                Ihre Ziele, Ihr Tempo und Ihren Kenntnisstand.
+                Персональное обучение, адаптированное под ваши цели, темп и
+                текущий уровень знаний.
               </div>
             </div>
             <div class="service-card reveal reveal-delay-1">
@@ -399,16 +379,13 @@
                   stroke-linejoin="round"
                 >
                   <path d="M4 19.5A2.5 2.5 0 016.5 17H20" />
-                  <path
-                    d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"
-                  />
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
                 </svg>
               </div>
-              <div class="service-name">Deutsch für Anfänger</div>
+              <div class="service-name">Немецкий для начинающих</div>
               <div class="service-desc">
-                Strukturierter Einstieg in die deutsche Sprache. Von den
-                Grundlagen bis zu sicherer Alltagskommunikation auf Niveau
-                A1/A2.
+                Структурированный старт с нуля. От основ до уверенного
+                повседневного общения на уровне A1/A2.
               </div>
             </div>
             <div class="service-card reveal reveal-delay-2">
@@ -425,10 +402,10 @@
                   <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
                 </svg>
               </div>
-              <div class="service-name">Prüfungsvorbereitung</div>
+              <div class="service-name">Подготовка к экзаменам</div>
               <div class="service-desc">
-                Intensive Vorbereitung auf Goethe-Zertifikat, TELC, TestDaF und
-                DSH. Strategien, Übungen und Probeprüfungen.
+                Интенсивная подготовка к сертификатам Goethe, TELC, TestDaF и
+                DSH. Стратегии, упражнения и пробные тесты.
               </div>
             </div>
           </div>
@@ -439,35 +416,32 @@
       <section id="vorteile" class="section section--alt">
         <div class="container">
           <div class="reveal">
-            <span class="section-label">Warum ich?</span>
-            <h2 class="section-title">Meine<br /><span>Stärken</span></h2>
+            <span class="section-label">Почему именно я?</span>
+            <h2 class="section-title">Мои<br /><span>преимущества</span></h2>
           </div>
           <div class="adv-grid">
             <div class="adv-item reveal">
               <div class="adv-number">01</div>
               <div class="adv-content">
-                <div class="adv-title">Individueller Unterricht</div>
+                <div class="adv-title">Структурированный подход</div>
                 <div class="adv-desc">
-                  Jede Stunde orientiert sich an den Bedürfnissen der Lernenden.
-                  Ich passe Inhalte, Tempo und Übungen gezielt an das jeweilige
-                  Niveau und die Ziele meiner Schüler:innen an, sodass sie
-                  kontinuierlich Fortschritte machen. Praxisnah, verständlich
-                  und motivierend – ohne starre Vorgaben oder Zufälligkeiten.
+                  Каждый урок строится вокруг потребностей ученика. Я подбираю
+                  материал, темп и упражнения так, чтобы вы постоянно ощущали
+                  прогресс. Практично, понятно и мотивирующе — без хаоса и
+                  шаблонов.
                 </div>
               </div>
             </div>
             <div class="adv-item reveal reveal-delay-1">
               <div class="adv-number">02</div>
               <div class="adv-content">
-                <div class="adv-title">Individueller Ansatz</div>
+                <div class="adv-title">Индивидуальный план обучения</div>
                 <div class="adv-desc">
-                  Jeder Schüler erhält einen Lehrplan, der genau auf seine
-                  persönlichen Wünsche, Lernziele, Lerngeschwindigkeit und
-                  Vorkenntnisse zugeschnitten ist. Ob es um Alltagssprache,
-                  Berufskommunikation, Prüfungsvorbereitung oder spezifische
-                  Fachthemen geht - ich richte den Unterricht nach den
-                  individuellen Interessen und Bedürfnissen meiner Lernenden
-                  aus, damit jeder motiviert und erfolgreich lernen kann.
+                  Каждый ученик получает программу, точно составленную под его
+                  цели, пожелания, темп и стартовый уровень. Бытовой язык,
+                  деловое общение, подготовка к экзаменам — я адаптирую
+                  содержание так, чтобы обучение было максимально эффективным
+                  и мотивирующим.
                 </div>
               </div>
             </div>
@@ -475,39 +449,38 @@
         </div>
       </section>
 
-      <!-- ===== TESTIMONIALS GALLERY ===== -->
+      <!-- TESTIMONIALS -->
       <section class="testimonials section" id="testimonials">
         <div class="container">
-          <div class="section__label reveal">Reviews</div>
+          <div class="section__label reveal">Отзывы</div>
           <h2 class="testimonials__heading reveal">
-            What students say about<br /><em>learning German</em>
+            Что говорят ученики об<br /><em>уроках немецкого</em>
           </h2>
           <p class="testimonials__sub reveal">
-            Warm, structured and motivating lessons for students with different
-            goals.
+            Тёплые, структурированные и вдохновляющие занятия для студентов с
+            разными целями.
           </p>
 
           <div class="testimonials__wrapper">
             <button
               class="testimonials__btn testimonials__btn--prev"
-              aria-label="Previous"
+              aria-label="Предыдущий"
             >
               ←
             </button>
 
             <div class="testimonials__track" id="testimonialsTrack">
-              <!-- CARD -->
               <article class="testimonial-card">
                 <div class="testimonial-card__top">
                   <div class="testimonial-card__avatar">♀</div>
                   <div>
-                    <h3>Anna, 29</h3>
-                    <p>Private student</p>
+                    <h3>Анна, 29</h3>
+                    <p>Частная ученица</p>
                   </div>
                 </div>
                 <p>
-                  Yuliya explains German very clearly. I stopped being afraid of
-                  grammar and finally feel progress after every lesson.
+                  Юлия объясняет очень чётко. Я перестала бояться грамматики и
+                  наконец чувствую прогресс после каждого урока.
                 </p>
               </article>
 
@@ -515,13 +488,13 @@
                 <div class="testimonial-card__top">
                   <div class="testimonial-card__avatar">♂</div>
                   <div>
-                    <h3>Oleksandr, 34</h3>
-                    <p>Beginner</p>
+                    <h3>Александр, 34</h3>
+                    <p>Начинающий</p>
                   </div>
                 </div>
                 <p>
-                  Structured, calm and very professional. Lessons are practical
-                  and never boring.
+                  Структурировано, спокойно и очень профессионально. Уроки
+                  практичные и совсем не скучные.
                 </p>
               </article>
 
@@ -529,13 +502,13 @@
                 <div class="testimonial-card__top">
                   <div class="testimonial-card__avatar">◎</div>
                   <div>
-                    <h3>Iryna, 22</h3>
-                    <p>Student</p>
+                    <h3>Ирина, 22</h3>
+                    <p>Студентка</p>
                   </div>
                 </div>
                 <p>
-                  Very warm atmosphere. Yuliya always finds a simple way to
-                  explain difficult topics.
+                  Очень тёплая атмосфера. Юлия всегда находит простой способ
+                  объяснить сложные темы.
                 </p>
               </article>
 
@@ -543,13 +516,13 @@
                 <div class="testimonial-card__top">
                   <div class="testimonial-card__avatar">♀</div>
                   <div>
-                    <h3>Maria, 41</h3>
-                    <p>For work</p>
+                    <h3>Мария, 41</h3>
+                    <p>Для работы</p>
                   </div>
                 </div>
                 <p>
-                  I became much more confident speaking German. A rare
-                  combination of discipline and kindness.
+                  Стала намного увереннее говорить по-немецки. Редкое сочетание
+                  требовательности и доброты.
                 </p>
               </article>
 
@@ -557,20 +530,20 @@
                 <div class="testimonial-card__top">
                   <div class="testimonial-card__avatar">♂</div>
                   <div>
-                    <h3>Dmytro, 27</h3>
-                    <p>Speaking practice</p>
+                    <h3>Дмитрий, 27</h3>
+                    <p>Разговорная практика</p>
                   </div>
                 </div>
                 <p>
-                  Natural and motivating lessons. I finally started using German
-                  in real life.
+                  Естественные и вдохновляющие уроки. Наконец начал использовать
+                  немецкий в реальной жизни.
                 </p>
               </article>
             </div>
 
             <button
               class="testimonials__btn testimonials__btn--next"
-              aria-label="Next"
+              aria-label="Следующий"
             >
               →
             </button>
@@ -582,9 +555,9 @@
       <section id="kontakt" class="section">
         <div class="container">
           <div class="reveal">
-            <span class="section-label">Kontakt</span>
+            <span class="section-label">Контакт</span>
             <h2 class="section-title">
-              Bereit anzufangen?<br /><span>Schreiben Sie mir.</span>
+              Готовы начать?<br /><span>Напишите мне.</span>
             </h2>
           </div>
           <div class="contact-grid">
@@ -599,17 +572,13 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
-                    <path
-                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                    />
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <polyline points="22,6 12,13 2,6" />
                   </svg>
                 </div>
                 <div class="contact-detail">
-                  <strong>E-Mail</strong>
-                  <a href="mailto:schiller0109@gmail.com"
-                    >schiller0109@gmail.com</a
-                  >
+                  <strong>Электронная почта</strong>
+                  <a href="mailto:schiller0109@gmail.com">schiller0109@gmail.com</a>
                 </div>
               </div>
               <div class="contact-item">
@@ -622,13 +591,11 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
-                    <path
-                      d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.2 2 2 0 012.08.01h3A2 2 0 017 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.1 7.77A16 16 0 0016.23 17.9l1.13-1.13a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.01z"
-                    />
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.2 2 2 0 012.08.01h3A2 2 0 017 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.1 7.77A16 16 0 0016.23 17.9l1.13-1.13a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.01z" />
                   </svg>
                 </div>
                 <div class="contact-detail">
-                  <strong>Telefon</strong>
+                  <strong>Телефон</strong>
                   <a href="tel:+48539610593">+48 539 610 593</a>
                 </div>
               </div>
@@ -642,14 +609,11 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
-                    <path
-                      d="M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-4 0v6h-4v-12h4v2"
-                    />
+                    <path d="M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-4 0v6h-4v-12h4v2" />
                     <rect x="2" y="9" width="4" height="12" />
                     <circle cx="4" cy="4" r="2" />
                   </svg>
                 </div>
-
                 <div class="contact-detail">
                   <strong>LinkedIn</strong>
                   <a
@@ -676,8 +640,8 @@
                   </svg>
                 </div>
                 <div class="contact-detail">
-                  <strong>Verfugbarkeit</strong>
-                  <span>Mo - Fr: 9:30 - 15:00 Uhr</span>
+                  <strong>Доступность</strong>
+                  <span>Пн — Пт: 9:30 — 15:00</span>
                 </div>
               </div>
             </div>
@@ -687,45 +651,45 @@
             >
               <div class="form-row">
                 <div class="form-group">
-                  <label for="name">Ihr Name</label>
+                  <label for="name">Ваше имя</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="Max Mustermann"
+                    placeholder="Иван Иванов"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="email">E-Mail-Adresse</label>
+                  <label for="email">Электронная почта</label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="max@beispiel.de"
+                    placeholder="ivan@example.com"
                     required
                   />
                 </div>
               </div>
               <div class="form-group">
-                <label for="subject">Betreff</label>
+                <label for="subject">Тема</label>
                 <input
                   type="text"
                   id="subject"
                   name="subject"
-                  placeholder="Ich mochte eine Deutschstunde buchen"
+                  placeholder="Хочу записаться на урок немецкого"
                 />
               </div>
               <div class="form-group">
-                <label for="message">Ihre Nachricht</label>
+                <label for="message">Ваше сообщение</label>
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="Beschreiben Sie Ihre Lernziele und Ihren aktuellen Deutschkenntnisstand..."
+                  placeholder="Расскажите о ваших целях и текущем уровне знания языка..."
                 ></textarea>
               </div>
               <div class="form-submit">
-                <button type="submit" class="btn">Nachricht senden</button>
+                <button type="submit" class="btn">Отправить сообщение</button>
               </div>
             </form>
           </div>
@@ -739,16 +703,16 @@
         <a
           href="/"
           class="footer-logo"
-          aria-label="Yuliya Kurinova Deutsch lernen home"
+          aria-label="Юлия Куринова — изучение немецкого языка, главная страница"
         >
           <span class="logo__main">Yuliya Kurinova</span>
           <span class="logo__sub">Deutsch lernen</span>
         </a>
-        <p>2026 Julia Kurinova. Alle Rechte vorbehalten.</p>
+        <p>2026 Юлия Куринова. Все права защищены.</p>
         <div class="footer-links">
-          <a href="#ueber-mich">Über mich</a>
-          <a href="#leistungen">Leistungen</a>
-          <a href="#kontakt">Kontakt</a>
+          <a href="#ueber-mich">Обо мне</a>
+          <a href="#leistungen">Услуги</a>
+          <a href="#kontakt">Контакт</a>
         </div>
       </div>
     </footer>
