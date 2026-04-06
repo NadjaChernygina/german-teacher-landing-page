@@ -34,6 +34,10 @@ html {
   font-size: 16px;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   font-family: var(--ff-body);
   background: var(--clr-bg);
@@ -350,12 +354,32 @@ nav a:hover::after {
 
 /* ─── Lang Switch — Mobile ───────────────────────────────── */
 
+.mobile-nav__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav__list li {
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-nav__list a {
+  display: block;
+}
+
+.mobile-nav a:after {
+  display: none; /* Hide desktop nav underline */
+}
+
 .mobile-lang {
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 12px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
   margin-top: 8px;
 }
 
@@ -455,7 +479,7 @@ nav a:hover::after {
   transform: translateX(0);
 }
 
-.mobile-nav a {
+.mobile-nav .mobile-nav__item a {
   font-family: var(--ff-display);
   font-size: 1rem;
   font-weight: 400;
@@ -467,7 +491,7 @@ nav a:hover::after {
     color var(--transition),
     padding-left var(--transition);
 }
-.mobile-nav a:hover {
+.mobile-nav .mobile-nav__item a:hover {
   color: var(--clr-accent);
   padding-left: 8px;
 }
@@ -1220,6 +1244,7 @@ nav a:hover::after {
 
   .testimonial-card {
     min-width: 260px;
+    max-width: 300px;
   }
 }
 
