@@ -995,6 +995,9 @@ nav a:hover::after {
 }
 
 .contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .contact-item {
@@ -1003,6 +1006,7 @@ nav a:hover::after {
   align-items: flex-start;
   padding: 20px 0;
   border-bottom: 1px solid var(--clr-border);
+  width: calc(50% - 10px);
 }
 .contact-item:first-child {
   padding-top: 0;
@@ -1396,5 +1400,9 @@ footer .footer-links a:hover {
   .about-stats {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .contact-item {
+    width: 100%;
   }
 }
