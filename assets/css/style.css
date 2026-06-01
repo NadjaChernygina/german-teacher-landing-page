@@ -1431,3 +1431,32 @@ footer .footer-links a:hover {
     width: 100%;
   }
 }
+
+.telegram-cta-btn {
+  position: fixed;
+  bottom: 80px;
+  padding: 10px;
+  right: 0;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegram-cta-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .telegram-cta-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+.tg-float-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+}
